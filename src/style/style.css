@@ -1,0 +1,73 @@
+.card-paper {
+  background-color: blueviolet;
+  z-index: 99;
+}
+.card-paper::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+  width: 350px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: rgb(160, 68, 246);
+  transform: rotate(-10deg);
+}
+
+.card-paper::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  .card-paper {
+    background-color: blueviolet;
+    z-index: 99;
+  }
+  .card-paper::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: rgb(160, 68, 246);
+    transform: rotate(-10deg);
+  }
+
+  .card-paper::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    z-index: -1;
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transform: rotate(-20deg);
+  }
+  z-index: -1;
+  width: 350px;
+  height: 100%;
+  border-radius: 10px;
+  background-color: blueviolet;
+  transform: rotate(-20deg);
+}
+<<<<<<< HEAD
+=======
+    z-index: -1;
+    width: 350px;
+    height: 100%;
+    border-radius: 10px;
+    background-color: blueviolet;
+    transform: rotate(-20deg);
+
+    
+}
+>>>>>>> 06cdd5ea58aa27e564391518ba709e3f6af0ebcb

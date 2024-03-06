@@ -1,0 +1,89 @@
+{
+  "name": "jsonhub",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/parser": "^7.22.5",
+    "@coreui/react": "^4.7.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fontsource/roboto": "^5.0.3",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@headlessui/react": "^1.7.15",
+    "@heroicons/react": "^2.0.17",
+    "@material-tailwind/react": "^1.4.2",
+    "@mui/icons-material": "^5.11.16",
+    "@mui/material": "^5.13.5",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/react-select": "^5.0.1",
+    "aos": "^3.0.0-beta.6",
+    "axios": "^1.3.6",
+    "daisyui": "^2.52.0",
+    "env": "^0.0.2",
+    "env-cmd": "^10.1.0",
+    "firebase": "^9.22.1",
+    "flowbite": "^1.6.5",
+    "flowbite-react": "^0.4.4",
+    "formik": "^2.2.9",
+    "framer-motion": "^10.12.14",
+    "jsonwebtoken": "^9.0.0",
+    "node-modules": "^1.0.1",
+    "otp-input-react": "^0.3.0",
+    "prettier": "^2.8.8",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-clamp-lines": "^3.0.3",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-custom-alert": "^1.0.4",
+    "react-daisyui": "^3.1.2",
+    "react-dom": "^18.2.0",
+    "react-editext": "^6.0.0",
+    "react-hot-toast": "^2.4.1",
+    "react-intersection-observer": "^9.4.3",
+    "react-pin-input-hook": "^1.0.9",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "react-scripts": "5.0.1",
+    "react-select": "^5.7.3",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-toastify": "^9.1.3",
+    "react-use-clipboard": "^1.0.9",
+    "styled-components": "^5.3.11",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "start": "env-cmd react-scripts start",
+    "build": "env-cmd react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  }
+}

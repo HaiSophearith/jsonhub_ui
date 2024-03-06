@@ -1,0 +1,14 @@
+li{
+    margin-right: 15px;
+}
+.nav-link{
+    width: 0%;
+    /* transition: all .3s ease-out; */
+}
+.nav-link:hover{
+    width: 100%;
+    /* color: rgba(242, 208, 71, 0.3); */
+    color: #F2CF47;
+    background-color: #010448;
+    /* border-bottom: 3px rgba(110, 111, 232) solid; */
+}
